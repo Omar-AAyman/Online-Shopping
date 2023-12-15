@@ -12,8 +12,8 @@ html {
 }
 
 .container {
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #sec-1 {
@@ -67,6 +67,7 @@ html {
 }
 #sec-1 > header > .container a:hover{
   color: #ffbc00;
+  transform: scale(1.1);
 
 }
 
@@ -110,6 +111,7 @@ html {
 }
 #sec-1 > #container-2 {
   margin-top: 12rem;
+ 
 }
 #sec-1 > #container-2 > #art-1 {
   line-height: 2.3rem;
@@ -127,21 +129,22 @@ html {
 }
 #sec-1 > #container-2 > #art-1 > h1 > span {
   color: #cd8383;
+
 }
 #sec-1 > #container-2 > #art-1 > a {
   text-decoration: none;  
-font-weight: 600;
+  font-weight: 600;
   font-size: 1rem;
   color: black;
 
   background-color: #fff;
   border-radius: 1rem 1rem;
-
   padding: 0.6rem 1.9rem;
 }
 #sec-1 > #container-2 > #art-1 a:hover {
   background-color: black;
   color: #fff;
+  transform: scale(1.1);
 }
 #sec-1 > #container-2 > #art-2 {
   padding-left: 5%;
@@ -173,6 +176,7 @@ font-weight: 600;
 }
 #sec-1 > #container-2 > div a:hover {
   color: black;
+  transform: scale(1.1);
 }
 #sec-2 {
   width: 100%;
@@ -193,7 +197,7 @@ font-weight: 600;
 #sec-2 > #container div {
   display: flex;
   flex-direction: column;
-  width: 390px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
@@ -258,10 +262,11 @@ font-weight: 600;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 3rem;
+  margin-top: 1rem;
 }
 #sec-3 > #container #imgs img {
-  width: 290px;
-  margin-bottom: 1rem;
+  width: 300px;
+  margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -337,7 +342,7 @@ font-weight: 600;
 
 }
 #sec-4 > #container > #content img {
-  width: 450px;
+  width: 350px;
   margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
@@ -466,6 +471,7 @@ justify-content: space-between;
 #sec-6> #container .d a:hover{
   color: #ffbc00;
   cursor: pointer;
+  transform: scale(1.1);
 
 
 }
@@ -516,9 +522,11 @@ justify-content: space-between;
 #sec-6> #container #d3 input[type='submit']:hover{
   background-color: #ffbc00;
   cursor: pointer;
+  transform: scale(1.1);
 
 }
 @media (min-width: 576px) {
+  
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -585,6 +593,9 @@ justify-content: space-between;
   padding-top: 200px;
 }
 
+#sec-4 > #container > #content img {
+  width: 390px;
+}
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .container {
@@ -593,7 +604,18 @@ justify-content: space-between;
   #sec-1 {
     background-position: center center;
   }
+  #sec-2 > #container div {
+    width: 360px;
+  }
+  #sec-3 > #container #imgs img {
+  width: 400px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
+  #sec-2 > #container div {
+    width: 480px;
+  }
 }
